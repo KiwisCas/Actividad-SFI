@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui-container" style="position:fixed; top:10px; left:10px; z-index:10;">
+        <button id="btn-happy" style="font-size:24px; padding:10px; margin:4px">😊</button>
+        <button id="btn-neutral" style="font-size:24px; padding:10px; margin:4px">😐</button>
+        <button id="btn-sad" style="font-size:24px; padding:10px; margin:4px">😢</button>
+        <div id="statusText" style="margin-top:8px; color:#fff; font-weight:bold;"></div>
+    </div>
+    <script defer src="page1.js"></script>
+</body>
+</html>
